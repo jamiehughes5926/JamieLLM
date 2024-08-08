@@ -125,5 +125,5 @@ def process_conversations(excluded_words):
         json.dump(dataset, dataset_file, indent=4)
 
 # Example usage
-excluded_words = ["fid", "addy", "md", "mdma","fuck"]
+excluded_words = [""]
 process_conversations(excluded_words)
